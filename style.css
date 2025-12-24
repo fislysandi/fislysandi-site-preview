@@ -48,7 +48,6 @@ aside {
     gap: 1rem;
     position: fixed;
     height: 100vh;
-    border-right: 2px solid var(--fg);
     overflow-y: auto;
 }
 
