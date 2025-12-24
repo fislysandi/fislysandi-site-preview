@@ -1,83 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Personal Portfolio of Fislysandi. Creator, Developer, Innovator.">
-    <title>Fislysandi | Creative Developer</title>
+    <title>fislysandi.xyz</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <div class="cursor-glow"></div>
-    
-    <nav class="glass-nav">
-        <div class="logo">fislysandi<span class="dot">.</span></div>
-        <ul class="nav-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#work">Work</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+    <aside>
+        <div class="profile-section">
+            <div class="ascii-art">
+
+            </div>
+            <h1 class="logo">fislysandi</h1>
+            <p class="tagline">Minimalist. Developer.</p>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#about">~/about</a></li>
+                <li><a href="#projects">~/projects</a></li>
+                <li><a href="#blog">~/blog</a></li>
+                <li><a href="#contact">~/contact</a></li>
+                <li><a href="rss.xml">~/rss</a></li>
+            </ul>
+        </nav>
+
+        <div class="socials">
+            <a href="https://github.com/fislysandi" target="_blank">[github]</a>
+            <a href="#" target="_blank">[email]</a>
+            <a href="#" target="_blank">[pgp key]</a>
+        </div>
+    </aside>
 
     <main>
-        <section id="home" class="hero">
-            <div class="hero-content">
-                <div class="badge">Welcome to my space</div>
-                <h1>Crafting <span class="gradient-text">Digital</span><br>Experiences.</h1>
-                <p>I build aesthetic, functional, and immersive web solutions for the modern world.</p>
-                <div class="cta-group">
-                    <a href="#work" class="btn primary">View Work</a>
-                    <a href="#contact" class="btn secondary">Get in Touch</a>
-                </div>
-            </div>
-            <div class="hero-visual">
-                <!-- Abstract geometric art via CSS/SVG can go here -->
-                <div class="glass-card float-animation">
-                    <div class="card-content">
-                        <h3>Innovation</h3>
-                        <p>Defined by creativity.</p>
-                    </div>
-                </div>
-                <div class="glass-card float-animation delay-1">
-                    <div class="card-content">
-                        <h3>Design</h3>
-                        <p>Driven by aesthetics.</p>
-                    </div>
-                </div>
-            </div>
+        <section id="about">
+            <h2>About</h2>
+            <p>Welcome to my digital garden. I adhere to <strong>KISS</strong> (Keep It Simple, Stupid) principle.
+                This website is built with HTML and plain CSS. no JavaScript.</p>
+            <p>i mainly specilize as a an artist (3d art/2d art) and decided to pickup python because why not?</p>
         </section>
 
-        <!-- Placeholder for more sections to ensure scrollability for effects -->
-        <section id="work" class="spacer">
-            <h2>Selected Works</h2>
-            <div class="grid">
-                <article class="project-card">
-                    <div class="project-image"></div>
-                    <h3>Project Alpha</h3>
-                    <p>Next-gen interface design.</p>
-                </article>
-                <article class="project-card">
-                    <div class="project-image"></div>
-                    <h3>Project Beta</h3>
-                    <p>AI-driven automation tool.</p>
-                </article>
-                <article class="project-card">
-                    <div class="project-image"></div>
-                    <h3>Project Gamma</h3>
-                    <p>Immersive 3D web experience.</p>
-                </article>
-            </div>
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul class="project-list">
+                <li class="project-item">
+                    <h3><a href="#">Dotfiles</a></h3>
+                    <p>My personal configuration files for a highly optimized Linux environment. Includes configs for
+                        Neovim, Tmux, and Zsh.</p>
+                    <div class="project-meta">Language: Lua, Shell | Updated: Yesterday</div>
+                </li>
+                <li class="project-item">
+                    <h3><a href="#">System Monitor</a></h3>
+                    <p>A lightweight, terminal-based system monitoring tool written in Rust. Displays CPU, RAM, and
+                        network usage with minimal overhead.</p>
+                    <div class="project-meta">Language: Rust | Status: Active</div>
+                </li>
+                <li class="project-item">
+                    <h3><a href="#">Static Site Generator</a></h3>
+                    <p>A bespoke SSG script written in 50 lines of POSIX shell. Used to build this very website
+                        (conceptually).</p>
+                    <div class="project-meta">Language: Bash</div>
+                </li>
+            </ul>
         </section>
+
+        <section id="blog">
+            <h2>Recent Thoughts</h2>
+            <p><em>No posts yet. Check back soon.</em></p>
+        </section>
+
+        <footer>
+            <p>Content is &copy; 2025 Fislysandi.<br>
+                All rights reserved. Proprietary content.<br>
+                Built with <code>vim</code> on Linux.</p>
+        </footer>
     </main>
-
-    <footer>
-        <p>&copy; 2025 Fislysandi. All rights reserved.</p>
-    </footer>
-
-    <script src="script.js"></script>
 </body>
+
 </html>
